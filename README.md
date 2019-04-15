@@ -6,7 +6,7 @@ Instrucciones para ejecutar
 1) Correr el comando "composer install"
 
 
-2) Copiar el .env.example y crear una archivo .env con el mismo contenido,
+2) Copiar el .env.example y crear una archivo .env con el mismo contenido, 
 hacer las siguientes modificaciones para la conexion a la base de
 datos:
 
@@ -18,8 +18,10 @@ DB_DATABASE=[NOMBRE DE LA BASE DE DATOS]
 DB_USERNAME=[USUARIO DE LA BASE DE DATOS]
 DB_PASSWORD=[CONTRASENA DE LA BASE DE DATOS]
 
-3) Correr los siguientes seeds:
+3) Correr las migraciones con:
+php artisan migrate
 
+4) Correr los siguientes seeds:
 
 php artisan db:seed --class=CategoriesSeeder
 php artisan db:seed --class=UsersSeeder
