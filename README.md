@@ -28,12 +28,12 @@ DB_USERNAME=[USUARIO DE LA BASE DE DATOS]
 DB_PASSWORD=[CONTRASENA DE LA BASE DE DATOS]
 
 
-3) Correr las migraciones con:
+4) Correr las migraciones con:
 
 php artisan migrate
 
 
-4) Correr los siguientes seeds:
+5) Correr los siguientes seeds:
 
 php artisan db:seed --class=CategoriesSeeder
 
