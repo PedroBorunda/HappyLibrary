@@ -40,3 +40,5 @@ php artisan db:seed --class=CategoriesSeeder
 php artisan db:seed --class=UsersSeeder
 
 php artisan db:seed --class=BooksSeeder (Este ultimo opcinal si se desean tener libros desde el inicio)
+
+NOTA: Para el correcto funcionamiento asegurarse de utilizar una version de php 7.1 o superior
